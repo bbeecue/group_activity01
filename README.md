@@ -13,11 +13,11 @@ We used the Breast Cancer Wisconsin Diagnostic dataset obtained from these sourc
 - [Scikit-learn breast cancer dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
 - [UCI Machine Learning Repository (Breast Cancer Wisconsin Diagnostic)](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)  
 
-We selected two features from the dataset for the input layer of the network, namely, concave_points3, and perimeter3. The selection of these features was done by identifying the two most correlated features with the target 'diagnosis'. Using panda's built-in cor function, we were able to see that concavepoints3 and perimeter3 correlated to the target the most.
+We selected two features from the dataset for the input layer of the network, namely, concave_points3, and perimeter3. The selection of these features was done by identifying the two most correlated features with the target 'diagnosis'. Using panda's built-in corr function, we were able to see that concavepoints3 and perimeter3 correlated to the target the most.
 
 ## Network Architecture
 
-- Input layer: 2 neurons (corresponding to selected features)
+- Input layer: 2 neurons (selected features: concave_points3 and perimeter3)
 - Hidden layer: 2 to 4 neurons, activation function: Sigmoid, ReLU, or Tanh
 - Output layer: 1 neuron to produce binary classification output
 
@@ -65,4 +65,4 @@ Each member contributed to different components of the network:
 
 This activity provided hands-on experience in building a neural network without relying on high-level ML frameworks. The group collaboratively developed the model, analyzed its training behavior visually, and demonstrated understanding of fundamental AI concepts through both code and documentation.
 
-Video: link
+Video: https://youtu.be/kMUH7NVokfU
