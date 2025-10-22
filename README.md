@@ -36,6 +36,8 @@ Test Accuracy: 92.98%
 
 ![diagram](images/Table%201.png)
 The diagram above shows the training loss over the epochs. The curve is descending which means that the neural network is gradually improving which is showed by the decreasing loss over time.
+
+
 ![diagram](images/Table%202.png)
 This second diagram shows how the model separates benign and malignant tumors using the two selected features: concave points and perimeter. We can see in the graph that the model has learned a dividing region in this space where points above the boundary classifies as  malignant and points below the boundary classifies as benign. This visually demonstrates how the model transforms the values of the features into class prediction(malignant or benign). 
 
